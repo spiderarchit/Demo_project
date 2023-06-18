@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Website</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+      color: #333333;
+    }
+    
+    .navigation {
+      display: flex;
+      align-items: center;
+    }
+    
+    .navigation a {
+      margin-left: 20px;
+      color: #333333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .main-content {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+      color: #333333;
+      margin-bottom: 20px;
+    }
+    
+    .segment {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    
+    .subsegment {
+      width: 30%;
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .subsegment h3 {
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    
+    .subsegment ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .subsegment li {
+      margin-bottom: 10px;
+    }
+    
+    .news {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .news-article {
+      width: 30%;
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .news-article h4 {
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    
+    .news-article p {
+      margin: 0;
+    }
+    
+    .events {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .event {
+      width: 30%;
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .event h4 {
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    
+    .event p {
+      margin: 0;
+    }
+    
+    .jobs {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .job {
+      width: 30%;
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .job h4 {
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    
+    .job p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Logo</div>
+    <nav class="navigation">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Sign In</a>
+    </nav>
+  </header>
+  
+  <div class="main-content">
+    <section>
+      <h2>Featured Blogs</h2>
+      
+      <div class="segment">
+        <div class="subsegment">
+          <h3>Segment 1</h3>
+          <ul>
+            <li>Subsegment 1</li>
+            <li>Subsegment 2</li>
+            <li>Subsegment 3</li>
+          </ul>
+        </div>
+        
+        <div class="subsegment">
+          <h3>Segment 2</h3>
+          <ul>
+            <li>Subsegment 1</li>
+            <li>Subsegment 2</li>
+            <li>Subsegment 3</li>
+          </ul>
+        </div>
+        
+        <div class="subsegment">
+          <h3>Segment 3</h3>
+          <ul>
+            <li>Subsegment 1</li>
+            <li>Subsegment 2</li>
+            <li>Subsegment 3</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section class="news">
+      <div class="news-article">
+        <h4>News Article 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      
+      <div class="news-article">
+        <h4>News Article 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      
+      <div class="news-article">
+        <h4>News Article 3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </section>
+    
+    <section class="events">
+      <div class="event">
+        <h4>Event 1</h4>
+        <p>Date: June 1, 2023</p>
+        <p>Location: City</p>
+      </div>
+      
+      <div class="event">
+        <h4>Event 2</h4>
+        <p>Date: June 10, 2023</p>
+        <p>Location: City</p>
+      </div>
+      
+      <div class="event">
+        <h4>Event 3</h4>
+        <p>Date: June 15, 2023</p>
+        <p>Location: City</p>
+      </div>
+    </section>
+    
+    <section class="jobs">
+      <div class="job">
+        <h4>Job
+
+        </body>
+        </html>
